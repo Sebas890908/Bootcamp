@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Empresa de Instalación de Paneles Solares - Energía Solar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- parte superior de la wed -->
+    <header>
+        <h1>Instalación y Mantenimiento de Paneles Solares</h1>
+        <nav>
+            <ul>
+                <li><a href="inicio">Inicio</a></li>
+                <li><a href="servicios">Servicios</a></li>
+                <li><a href="productos">Productos</a></li>
+                <li><a href="proyectos">Proyectos</a></li>
+                <li><a href="nosotros">Nosotros</a></li>
+                <li><a href="contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Fin parte superior de la wed -->
+    <main>
+        <!--secciones-->
+        <section id="inicio">
+            <h2>Bienvenido a nuestra empresa</h2>
+            <p>Somos expertos en instalación y mantenimiento de sistemas de energía solar.</p>
+            <img src="img/imagen_inicio.jpg" width="10%" alt="Instalación de paneles solares">
+        </section>
+        
+        <section id="servicios">
+            <h2>Nuestros Servicios</h2>
+            <h3>Instalación de Paneles Solares</h3>
+            <p>Ofrecemos servicios de instalación personalizada de paneles solares.</p>
+            <h3>Mantenimiento de Paneles Solares</h3>
+            <p>Realizamos mantenimientos preventivos y correctivos para optimizar el rendimiento.</p>
+        </section>
+        
+        <section id="productos">
+            <h2>Nuestros Productos</h2>
+            <h3>Tipos de Paneles Solares</h3>
+            <ol>
+                <li>Paneles solares monocristalinos</li>
+                <li>Paneles solares policristalinos</li>
+                <li>Paneles solares de capa fina</li>
+            </ol>
+            <img src="tipos_paneles.jpg" alt="Tipos de paneles solares">
+        </section>
+        
+        <section id="proyectos">
+            <h2>Nuestros Proyectos</h2>
+            <h3>Proyectos Recientes</h3>
+            <p>Explora algunos de nuestros proyectos de instalación y sus beneficios.</p>
+            <video controls>
+                <source src="video/video_proyecto.mp4" type="video/mp4">
+            </video>
+        </section>
+        
+        <section id="nosotros">
+            <h2>Sobre Nosotros</h2>
+            <p>Somos una empresa comprometida con la energía sostenible y el medio ambiente.</p>
+            <img src="equipo.jpg" alt="Equipo de trabajo">
+        </section>
+        
+        <!--formulario-->
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form action="enviar.php" method="POST">
+                <!--Nombre-->
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+               <!--Email-->
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                <!--telefono-->
+                <label for="telefono">Telefono:</label>
+                <input type="text" id="telefono">
+                <!--mensaje-->
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <p>Contáctanos para más información sobre nuestros servicios y productos.</p>
+        </section>
+    </main>
+    
+<!--     <footer> Todos los derechos reservados </footer> -->
+<div id = "footer">
+    Todos los derechos reservados
+</div> 
+
+    <footer>
+        <p>&copy; 2024 Empresa de Instalación de Paneles Solares. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

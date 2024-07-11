@@ -1,0 +1,65 @@
+        /* 2. Estilizar la barra de navegación utiilizando CSS */
+        nav {
+            background-color: #09a01d;
+            overflow: hidden;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 5;
+            padding: 5;
+        }
+        nav ul li {
+            float: center;
+        }
+        nav ul li a {
+            display: block;
+            color: rgb(245, 245, 245);
+            text-align: center;
+            padding: 15px 16px;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            background-color: #d5e005;
+        }
+        /* 4. Estilizar h1-h6 de la página */
+        h1, h2, h3, h4, h5, h6 {
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+        /* 5. Estilizar las diferentes secciones de la página */
+        section {
+            padding: 20px;
+            background-color: #f20b0b;
+            margin-bottom: 20px;
+        }
+        /* 6. Cargar un fondo en alguna de las secciones de la página */
+        #intro {
+            background-image: url("imagen/rock.jpg");
+            background-size: cover;
+            color: rgb(253, 7, 7);
+        }
+        /* Formulario de contacto */
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            margin-top: 10px;
+        }
+        input, select, textarea {
+            margin-top: 5px;
+            padding: 10px;
+            font-size: 16px;
+        }
+        button {
+            margin-top: 30px;
+            padding: 15px;
+            font-size: 10px;
+            background-color: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #111;
+        }

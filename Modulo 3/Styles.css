@@ -1,0 +1,41 @@
+
+            #listas-ordenadas{
+                background-color: #f0f0f0;
+                padding: 10px;
+                margin: 10px;
+                border: dotted;
+                border-radius: 10%/10%;
+
+            }
+/*             #listas-ordenadas ol{
+                list-style-type: upper-roman;
+            } */
+            #listas-ordenadas li{
+                color: #2f00ff;
+            }
+            #element{
+                border-width: medium;
+                border-style: solid;
+                border-color: red;
+                text-align: justify;
+                padding: 5%;
+            }
+            .p1{color: rgb(88,215,200);
+            }
+            .p2{color: rgb(100,215,100);
+            }
+            .p3{color: rgb(2,100,250);
+            }
+            .p4{color: rgb(20,215,5);
+            }
+            .p7{color: rgb(200,215,30);
+            }
+            .tarjeta{
+                width: 300px;
+                margin: 20px;
+                padding: 20px;
+                border: 5px solid royalblue;
+                border-radius: 10px;
+                box-shadow: 0 2px 5 px rgba(0,0,0, p1);
+                background-color: aquamarine;
+            }
