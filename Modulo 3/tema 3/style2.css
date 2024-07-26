@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 100;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;    
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.c1, 
+.c2, 
+.c3, 
+.c4, 
+.c5{
+    width: 100px;
+    min-width: 150px;
+    height: 150px;
+}
+
+.c1{
+    background-color: rgb(19, 202, 43);
+    width: 100px;
+    min-width: 150px;
+    height: 200px;
+}
+
+.c2{
+    background-color: blue;
+    width: 200px;
+    min-width: 150px;
+    height: 150px;
+}
+
+.c3{
+    background-color: green;
+    width: 300px;
+    min-width: 150px;
+    height: 200px;
+}
+
+.c4{
+    background-color: yellow;
+    width: 400px;
+    min-width: 150px;
+    height: 150px;
+}
+
+.c5{
+    background-color: orange;
+    width: 500px;
+    min-width: 150px;
+    height: 200px;
+}
+
+@media (min-width: 600px){
+    .c2, .c3 ,.c4{
+        width=50%;
+    }
+}

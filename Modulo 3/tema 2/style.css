@@ -1,0 +1,21 @@
+/* add styles here*/
+html{
+    background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,121,53,0.7289040616246498) 66%, rgba(0,212,255,1) 100%);
+}
+
+
+
+section {
+    color: white;
+    background: rgb(2,0,36);
+    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(10,9,121,0.7289040616246498) 34%, rgba(0,212,255,1) 100%);
+}
+
+h1{
+    font-size: 70px;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
